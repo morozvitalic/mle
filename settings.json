@@ -1,0 +1,19 @@
+{
+  "general": {
+    "random_state": 42,
+    "status": "test",
+    "datetime_format": "%d.%m.%Y_%H.%M",
+    "data_dir": "data",
+    "models_dir": "models",
+    "results_dir": "results"
+  },
+  "train": {
+    "table_name": "train_data.csv",
+    "data_sample": 140,
+    "test_size": 0.3
+  },
+  "inference": {
+    "test_sample": 10,
+    "inp_table_name": "inference_data.csv"
+  }
+}
